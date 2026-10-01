@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Activity</title>
+</head>
+
+<body style="
+    margin: 5px;
+    position: relative;
+    min-height: 900px;
+">
+
+    <!-- TEAL BOX -->
+    <div style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 320px;
+        height: 320px;
+        background-color: #66a6a6;
+        border: 10px solid black;
+        padding: 20px;
+        box-sizing: border-box;
+    ">
+        <p style="
+            margin: 0;
+            font-size: 20px;
+            line-height: 1.35;
+        ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aliquam at sapien porttitor urna elementum lacinia.
+            In id magna pulvinar, ultricies lorem id, vehicula elit.
+            Aliquam eu luctus nisl, vitae pellentesque magna.
+            Phasellus dolor metus, laoreet ac convallis sit amet,
+            efficitur sed dolor.
+        </p>
+    </div>
+
+
+    <!-- YELLOW BOX -->
+    <div style="
+        position: absolute;
+        top: 320px;
+        left: 320px;
+        width: 270px;
+        height: 295px;
+        background-color: yellow;
+
+        border-top: 20px solid black;
+        border-right: 10px solid black;
+        border-bottom: 10px solid black;
+        border-left: 10px solid black;
+
+        box-sizing: border-box;
+    ">
+    </div>
+
+
+    <!-- RED BOX -->
+    <div style="
+        position: absolute;
+        top: 615px;
+        left: 50px;
+        width: 270px;
+        height: 270px;
+        background-color: #d35f5f;
+
+        border: 10px solid black;
+
+        box-sizing: border-box;
+    ">
+    </div>
+
+</body>
+</html>

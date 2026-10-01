@@ -1,0 +1,27 @@
+/* Goal 7 - External CSS */
+
+h1,
+h2 {
+    color: blueviolet;
+}
+
+.box > p.done {
+    color: firebrick;
+}
+
+.box li {
+    color: blue;
+}
+
+.box li.done {
+    color: green;
+}
+
+ul > p.done {
+    color: black;
+    font-size: 10px;
+}
+
+body > p {
+    font-size: 20px;
+}

@@ -1,0 +1,65 @@
+ body {
+            margin: 0;
+            font-family: "Times New Roman", serif;
+        }
+
+        .container {
+            display: flex;
+            gap: 20%;
+            padding: 7px 7px 0 7px;
+            margin-bottom: 0;
+        }
+
+        .box {
+            width: 40%;
+            padding: 0;
+            font-size: 30px;
+        }
+
+        .cat {
+            background-color: #71f0d0;
+            height: 400px;
+        }
+
+        .cat img {
+            width: 180px;
+            height: 205px;
+            object-fit: cover;
+            float: left;
+            margin-right: 0;
+        }
+
+        .dog {
+            background-color: #ff7b4f;
+            height: 450px;
+            
+        }
+
+        img {
+            width: 280px;
+            height: 205px;
+            object-fit: cover;
+            float: left;
+            margin-right: 0;
+        }
+
+        h2 {
+            font-size: 25px;
+            margin: 20px 0;
+        }
+
+        p {
+            margin: 0;
+            line-height: 1.25;
+        }
+
+        footer {
+            clear: both;
+            background-color: #8b20e8;
+            text-align: center;
+            height: 20px;
+            font-size: 15px;
+            margin: 0 7px;
+            
+        }
+  
